@@ -31,13 +31,13 @@ public class CrudTest {
 	public void test() {
 		System.out.println(departmentMapper);
 		
-//		departmentMapper.insert(new Department(null, "开发部"));
-//		departmentMapper.insert(new Department(null, "运营部"));
+		departmentMapper.insert(new Department(null, "开发部"));
+		departmentMapper.insert(new Department(null, "运营部"));
 		
-//		employeeMapper.insert(new Employee(null, "张三", "男", "zhangsan@qq.com", 1));
-//		employeeMapper.insert(new Employee(null, "李四", "男", "zhangsan@qq.com", 1));
-//		employeeMapper.insert(new Employee(null, "王二", "女", "zhangsan@qq.com", 1));
-//		employeeMapper.insert(new Employee(null, "麻子", "女", "zhangsan@qq.com", 1));
+		employeeMapper.insert(new Employee(null, "张三", "男", "zhangsan@qq.com", 1));
+		employeeMapper.insert(new Employee(null, "李四", "男", "zhangsan@qq.com", 1));
+		employeeMapper.insert(new Employee(null, "王二", "女", "zhangsan@qq.com", 1));
+		employeeMapper.insert(new Employee(null, "麻子", "女", "zhangsan@qq.com", 1));
 		
 		
 		EmployeeMapper mapper = sqlSession.getMapper(EmployeeMapper.class);
