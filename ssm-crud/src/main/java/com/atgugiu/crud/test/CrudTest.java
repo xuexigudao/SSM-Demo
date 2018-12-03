@@ -54,6 +54,7 @@ public class CrudTest {
 	
 	public static void main(String[] args) {
 		String a = "去你妈的冲突";
+		String b = "新加的冲突"
 	}
 
 }
