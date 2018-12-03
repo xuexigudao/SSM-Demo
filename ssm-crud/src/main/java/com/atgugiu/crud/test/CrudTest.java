@@ -51,5 +51,9 @@ public class CrudTest {
 		
 		
 	}
+	
+	public static void main(String[] args) {
+		String a = "有冲突了";
+	}
 
 }
